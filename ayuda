@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title>Puzzles Arquitectura de Computadores</title>
+		<link href="watercolor/css/style.css" rel="stylesheet" />
+		<style type="text/css">
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc;  }
+#nav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0; }
+				#nav li a {
+				background-color: #f2f2f2;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+				#nav li a:hover {
+				background-color: #f2f2f2;
+			}
+			
+			#nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			#nav li:hover > ul {
+				display:block;
+			}
+			
+			#nav li ul li {
+				position:relative;
+			}
+			
+			#nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+#nav li {
+	float: left; }
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; }
+#nav li:first-child a {
+	border-left: 1px solid #ccc; }
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; }
+			
+		</style>
+	</head>
+	<body>
+<div id="nav">
+	<ul>
+		<li><a href="Inicio.html">Inicio</a></li>
+		<li><a href="">Puzzles</a>
+							<ul>
+								<li><a href="">Puzzle 1</a></li>
+								<li><a href="">Puzzle 2</a></li>
+								<li><a href="">Puzzle 3</a></li>
+								<li><a href="">Puzzle 4</a></li>
+							</ul>
+						</li>
+		<li><a href="#">Instrucciones</a></li>
+		<li><a href="Informacion.html">Información</a></li>
+		<li><a href="#">Ayuda</a></li>
+	</ul>
+</div>
+<h1>Ayuda</h1>
+<img href="www.u-cursos.cl" src="ucursos.png" alt="puzzle1" style="width:404px;height:304px">
+	</body>
+</html>
