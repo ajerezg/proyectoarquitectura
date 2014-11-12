@@ -88,7 +88,7 @@ Crafty.e('2D, DOM, Text')
  
 // Load our sprite map image
 Crafty.load([
-'assets/16x16_forest_2.png',
+'assets/board.png',
 'assets/door_knock_3x.mp3',
 'assets/door_knock_3x.ogg',
 'assets/door_knock_3x.aac',
@@ -106,14 +106,13 @@ Crafty.load([
 // These components' names are prefixed with "spr_"
 // to remind us that they simply cause the entity
 // to be drawn with a certain sprite
-Crafty.sprite(16, 'assets/16x16_forest_2.png', {
-spr_borde: [1, 0],
-spr_compuerta: [0, 1],
-spr_bit: [1, 1]
-});
-Crafty.sprite(32, 'assets/16x16_forest_2.png', {
+Crafty.sprite(32, 'assets/board.png', {
 spr_cable: [0, 0],
+spr_borde: [1, 3],
+spr_compuerta: [0, 3],
+spr_bit: [0, 2]
 });
+
  
 // Define our sounds for later use
 Crafty.audio.add({
